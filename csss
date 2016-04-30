@@ -1,0 +1,1116 @@
+.tuto_month::before {
+
+    position: absolute;
+    text-transform: uppercase;
+    top: -8px;
+    font-family: Oswald;
+    font-size: 10px;
+    left: 20px;
+}
+.img_like img {
+    vertical-align: -10%;
+}
+.tuto_month a {
+    text-decoration: none !important;
+    text-align: center;
+  color: #3A3A3A;
+    font-family: Oswald;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.tuto_month#codage::before {
+    color:#73B332;
+  content:"Codage";
+}
+.tuto_month#graph::before {
+    color:#7C46B0;
+  content:"Graphisme";
+}
+.tuto_month#ecriture::before {
+    color:#AD6525;
+  content:"écriture";
+}
+.tuto_month {
+  background-color: #EFEFEF;
+    margin: 10px 5px;
+    padding: 8px 0;
+  position:relative;
+  box-sizing:border-box;
+}
+
+.vote {
+    display: block;
+    float: none !important;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+    bottom: 5px;
+    right: 0px;
+}
+.vote.gensmall div {
+    display: inline-block;
+    color: #4B4B4B;
+    font-family: Calibri;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 2px;
+}
+.exqi_rgpara .presa_attente, .exqi_rgpara  .presa_valide {
+  margin-left:0px !important;
+}
+.exqi_rgpara .exqui_at {
+    margin-right: 0 !important;
+    width: 350px !important;
+}
+#fade { /*--Masque opaque noir de fond--*/
+	display: none; /*--masqué par défaut--*/
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .80;
+	z-index: 0;
+}
+
+#popup_name {
+    max-height: 85%;
+    overflow-y: scroll;
+    position: absolute;
+    top: 40px;
+    overflow-x: hidden;
+}
+.popup_block{
+	display: none; /*--masqué par défaut--*/
+	background: #fff;
+	padding: 20px;
+	border: 5px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 999;
+	/*--Les différentes définitions de Box Shadow en CSS3--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+}
+img.btn_close {
+	float: right;
+	margin: -55px -55px 0 0;
+}
+/*--Gérer la position fixed pour IE6--*/
+*html #fade {
+position: absolute;
+}
+*html .popup_block {
+position: absolute;
+}
+
+/****FIN**/
+.mpvu_entete {
+    background-color: rgb(243, 243, 243);
+  color: #656565;
+  padding: 10px;
+}
+.mpvu_fin {
+    background-color: #f3f3f3;
+    color: #656565;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 3px;
+}
+.mpvu_quote {
+    text-align: right;
+    display: inline-block;
+    float: right;
+}
+.mpvu_reponse {
+    bottom: 2px;
+    position: absolute;
+    left: 220px;
+}
+.mpvu_content {
+padding: 5px 20px 30px;
+    font-size: 14px;
+    color: #666565;
+    text-align: justify;
+}
+.mpvu_titre {
+    color: #515050;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 0 0 20px;
+    text-transform: uppercase;
+    width: 60%;
+    vertical-align: top;
+}
+.mpvu_infoenvoie {
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 13px;
+    text-align: right;
+    width: 35%;
+    margin: -5px 0;
+}
+
+.mCSB_inside > .mCSB_container {margin-right:20px !important;}
+.mp_button2 {
+    display: block;
+    width: 110%;
+    margin: 0 -4px;
+}
+.mpvu_button .mp_deleteselect {
+    right: 0px;
+}
+.mpvu_button input {
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+}
+.mpvu_button .mp_save {
+    left: 0px;
+}
+.mp_button {
+    margin: 0 -10px;
+}
+#mp_apercu {
+margin: 0 20px 0 18px;
+ background-color: white;
+    color: #969292;
+    display: inline-block;
+    font-family: Calibri;
+    min-height: 200px;
+    width: 570px;
+  border: 1px solid rgba(209,209,209,0.88);
+box-sizing: border-box;
+  position: relative;
+}
+.mp_vide {
+    margin: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+#mp_chargement,#script_chargement {
+    text-align: center;
+    margin: 80px;
+}
+.mp_contain {
+    background-color: rgba(240,240,240,0.5);
+    border: 1px solid rgba(209,209,209,0.88);
+    display: inline-block;
+    margin: 0 0 0 20px;
+    max-height: 400px;
+    min-height: 200px;
+width: 218px;
+    padding: 2px 2px 0 10px;
+    position: relative;
+    vertical-align: top;
+}
+
+.mp_contain::before {
+
+    border-bottom: 8px solid transparent;
+    border-left: 0;
+    border-right: 10px solid rgba(143,143,143,0.42);
+    border-top: 8px solid transparent;
+    content: "";
+    position: absolute;
+    right: -19px;
+
+
+}
+.mp_contain::after {
+    border-bottom: 8px solid transparent;
+    border-left: 0;
+    border-right: 9px solid #F3F3F3;
+    border-top: 8px solid transparent;
+    content: "";
+    position: absolute;
+    right: -20px;
+  top: 2px;
+  z-index: 2;
+
+}
+.exqui_mpliste {
+    display: inline-block;
+    max-height: 300px;
+    min-height: 200px;
+}
+.mp_pagenumber {
+    color: #95a7a5;
+    font-family: Calibri;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.mp_title {
+    font-family: Calibri;
+    font-size: 14px;
+    margin: 0 5px 0 0;
+    width: auto;
+  width: 100%;
+  text-align:center;
+}
+.mp_selec {
+    display: inline-block;
+  position:relative;
+}
+.mp_selec span{
+    position: absolute;
+    bottom: -6px;
+  left: -4px;
+}
+.mp_date {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+.mp_image img {
+    width: 12px;
+    position: absolute;
+    right: 0px;
+    top: -13px;
+}
+.mp_image {
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    position: relative;
+}
+.mp_block.active {
+    background-color: rgba(173, 171, 171, 0.36);
+    padding: 0 5px;
+    width: 190px;
+}
+.exqui_mpinfo{display:inline-block;color:#932b4c;width:100%;padding:0 0 2px;position:relative;font:11px Calibri}
+/****MESSAGERIE****/
+.mp_save{color:#7fb03a}
+.mp_pagination{display:inline-block;width:48%;text-transform:uppercase;color:#4d5151;font:11px Calibri}
+.mp_pagination a{text-decoration:none!important;color:#95a7a5}
+.mp_deleteselect{color:#daac3c}
+.mp_deleteall{color:#e8795b}
+.mp_button2 a {
+    display: inline-block !important;
+    font-size: 10px !important;
+}
+.mp_button2 a{color:#95a7a5;text-decoration:none!important;margin:0 4px}
+.mp_button2 a, .mp_deleteall, .mp_deleteselect, .mp_save {
+    background-color: transparent !important;
+    border: 0 !important;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+}
+.mp_from a{text-transform:uppercase;text-decoration:none!important}
+.mp_block{border-bottom:1px solid #932b4c;margin:0 0 3px}
+.mp_title a{color:#932b4c;text-decoration:none!important}
+.exqui_mpmenu img{vertical-align:middle}
+.exqui_menulist{text-transform:uppercase;color:#525f5d;padding:0 5px;font:10px Calibri}
+.exqui_menulist a{text-decoration:none!important;color:#95a7a5}
+.exqui_mpmenu {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    width: 100%;
+}
+/**PRESA**/
+.exqui_at div {
+    margin: -7px 0;
+}
+.presa1 {
+    position: absolute;
+    top: 108px;
+    border-top: 1px solid #932b4c !important;
+    width: 100%;
+    margin: 0px -20px;
+}
+.presa2 {
+    position: absolute;
+    top: 111px;
+    border-top: 1px solid #fff !important;
+    width: 96%;
+    margin: 0px -9px;
+}
+.exqui_at {
+    display: inline-block;
+    width: 400px;
+    margin: 0px 0 10px 20px;
+}
+.presa_avat {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+margin: 12px 0 0px;
+}
+.presa_avat img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.presa_ccl {
+    display: inline-block;
+    width: 350px;
+  vertical-align: text-top;
+}
+.presa_valide, .presa_attente {
+    border-radius: 50%;
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    vertical-align: text-top;
+    margin: 0px 0 10px 20px;
+}
+.presa_valide {    background: url("http://i.imgur.com/xSWwLsL.png");}
+.presa_attente {    background: url("http://i.imgur.com/kiRjRMN.png");}
+.presa_catégorie1::before {
+    color: #932b4c;
+    content: "Parle-nous de toi";
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 0 2px;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 3px #932b4c double;
+}
+
+.presa_catégorie2::before {
+    color: #932b4c;
+    content: "Parle-nous de tes compétences et de ton expérience";
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 0 2px;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 3px #932b4c double;
+}
+
+.presa_ccl::before {
+    color: #932b4c;
+    content: "Un mot pour finir ";
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 0 2px;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 3px #932b4c double;
+}
+.exqui_at::before {
+    content: "Avant tout";
+    border-bottom: 3px #932b4c double;
+    color: #932b4c;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: right;
+    display: block;
+    font-size: 15px;
+    padding: 5px 0 2px;
+}
+.exqui_présentation {
+    position: relative;
+  background-color: #d9e0df;
+padding: 0 20px;
+}
+.exqui_présentation::before {
+    background-color: white;
+    content: "Bienvenue sur";
+    display: block;
+    text-transform: uppercase;
+    color: #932b4c;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Calibri;
+    padding: 30px 0 60px;
+  margin: 0 -20px;
+}
+
+.exqui_présentation::after {
+
+    content: "Exquisite";
+    text-transform: uppercase;
+    color: #932b4c;
+    font-size: 30px;
+    font-family: Abel;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 20px;
+  left:0px;
+
+}
+.presa_prenom::before {
+    content: "Prénom : ";
+    text-transform: uppercase;
+    color: #932b4c;
+    font-weight: 600;
+}
+.presa_age::before {
+    content: "âge : ";
+    text-transform: uppercase;
+    color: #932b4c;
+    font-weight: 600;
+}
+.presa_loca::before {
+    content: "Localisation : ";
+    text-transform: uppercase;
+    color: #932b4c;
+    font-weight: 600;
+}
+.presa_pseudo::before {
+    content: "pseudo : ";
+    text-transform: uppercase;
+    color: #932b4c;
+    font-weight: 600;
+}
+/***TUTO***/
+.tuto_sommaire::before {
+    content: "Sommaire du tutoriel";
+    left: 0px !important;
+    text-align: center;
+    position: relative !important;
+    background-color: #fff;
+    display: block;
+margin: 0 -15px 4px;
+    padding: 5px 0;
+}
+.tuto_sommaire {
+    background-color: #E9EBEB;
+    box-sizing: border-box;
+    min-height: 110px;
+    padding: 0px 15px 5px;
+}
+.infoecriture {
+    vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+.tuto_attention::before {
+    content: "Attention !";
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.tuto_ccl {
+    text-align: left;
+    background-color: #E9EBEB;
+    margin: 0 -5px;
+    padding: 5px 10px;
+}
+.tuto_apercu img {
+    height: 120px;
+  min-width: 120px;
+}
+.tuto_apercu::before {
+    content: "Aperçu";
+    position: absolute;
+    background-color: #515151;
+    color: white;
+    padding: 1px 4px 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.tuto_descriptionecriture {
+    background-color: #E9EBEB;
+    display: inline-block;
+    min-height: 110px;
+    padding: 5px 15px;
+    width: 47%;
+    box-sizing: border-box;
+}
+   
+.tuto_content .tuto_partie .codebox, .tuto_contentecriture .tuto_partie .codebox{
+    width: 100% !important;
+    border: 1px solid rgba(146, 144, 144, 0.44);
+    padding: 4px 4px 0;
+    box-sizing: border-box;
+}
+.tuto_apercu {
+    display: inline-block;
+    width: 120px;
+    background-color: #515151;
+    height: 120px;
+  vertical-align: top;
+  overflow: hidden;
+}
+.tuto_description {
+    background-color: #E9EBEB;
+    display: inline-block;
+     min-height: 110px;
+    width: 67%;
+    margin-left: 15px;
+    padding: 5px 15px;
+}
+.tuto_attention {
+    background-color: #D14747;
+    color: white;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+.tuto_kezako::before {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    content: "Kezako ?";
+}
+.tuto_kezako {
+    background-color: rgb(120, 164, 25);
+    color: white;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+.tuto_content, .tuto_contentecriture {
+    background-color: #D9E0DF;
+padding: 0 15px 15px;
+    color: #616161 !important;
+}
+.tuto_content .codebox , .tuto_contentecriture .codebox{
+    width: 100% !important;
+}
+.tuto_content .hidecode dd ,.tuto_contentecriture .hidecode dd{
+  background-color: transparent !important;
+border: none !important;
+}
+.tuto_partie {
+padding: 5px 10px;
+    background-color: #E9EBEB;
+    margin: 0 -5px;
+}
+.tuto_parttitre {
+    background-color: #616161;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    margin: -10px;
+    padding: 4px 10px;
+}
+.tuto_titre {
+    font-family: Abel;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: white;
+    margin: 0 -15px;
+    text-align: center;
+    padding: 5px 10px;
+  line-height: 20px;
+}
+.tuto_info div {
+    background-color: #E9EBEB;
+    padding: 7px 10px;
+    margin: -5px 0;
+    text-align: right;
+    color: #932b4c;
+    position: relative;
+}
+.tuto_contentecriture .tuto_auteur {
+    background-color: #E9EBEB;
+    color: #932b4c;
+    padding: 7px 10px;
+    position: relative;
+    text-align: right;
+  margin-top:-15px;
+}
+.tuto_difficulte::before {
+    content: "Difficulté";
+}
+.tuto_navigateur::before {
+    content: "Navigateur";
+}
+.tuto_version::before {
+    content: "Version";
+}
+.tuto_auteur::before {
+    content: "Auteur";
+}
+.tuto_info div::before , .tuto_infoecriture div::before{
+    left: 10px;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #616161;
+    font-size: 11px;
+}
+.tuto_merci {
+    background-color: #EEC472;
+    margin: -20px -15px 0;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/***REGLEMENT***/
+.exqi_soustitre {
+    background-color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: table-row;
+}
+.exqi_reglementitre {
+    color: #932b4c;
+    font-family: Abel;
+    text-transform: uppercase;
+    border-bottom: 1px solid #932b4c;
+    font-size: 24px;
+    padding: 0 0 5px;
+    letter-spacing: 1px;
+}
+.exqi_reglpoint {
+    color: #166c83;
+}
+.exqi_rgpara {
+    border: 8px solid white;
+    padding: 8px;
+}
+.exqi_st1 {
+    color: #515050;
+    display: table-cell;
+    font-family: Calibri;
+    padding: 7px 0 7px 15px;
+    text-align: left;
+    width: 150px;
+    vertical-align: middle;
+}
+.exqi_st2 {
+    background-color: #932b4c;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Abel;
+    letter-spacing: 1px;
+    padding: 7px 15px 7px 0;
+    text-align: right;
+    width: 406px;
+    display: table-cell;
+    vertical-align: middle;
+}
+/****** AFFICHAGE QUOTE SPOILER CODE*******/
+.quote{
+  color:#515050;
+padding: 5px;
+font-style: italic;
+}
+.selectCode {
+    float: right;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 10px;
+}
+.code , .codebox.hidecode dd {
+    padding: 5px;
+    color: #515050;
+}
+.codebox.spoiler dt {
+    background-color: rgba(230, 80, 40, 0.84);
+    margin: 2px 0;
+    padding: 2px 5px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: white !important;
+}
+.codebox span.genmed  {
+    text-transform: uppercase;
+    color: #515050;
+}
+.codebox.spoiler dd {
+    border: none !important;
+}
+.codebox.spoiler dt span{color:white !important;}
+.codebox {width:96%;}
+.spoiler_content {
+    padding: 5px;
+}
+.spoiler_closed {
+    display: none !important;
+}
+/****CONNEXION RAPIDE****/
+.exqi_painput input.mainoption {
+    height: 30px;
+    border: 1px solid #771534 !important;
+}
+.exqi_painput span {
+    color: white !important;
+    font-family: Calibri !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    vertical-align: 15%;
+}
+.exqi_paco {
+    background-color: #d9e0df;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 20px;
+    border: 1px solid rgba(155, 158, 157, 0.83);
+    margin: 0 10px;
+}
+.exqi_pafastco {
+ 
+ background-color: #B6B6B6;
+    margin: 0 20px 10px;
+    padding: 5px;
+  width: 820px;
+}
+.exqi_inputco {
+    background-color: white;
+    border: 1px solid #d2d7d6;
+    width: 200px;
+    height: 20px;
+    margin: 2px;
+}
+.exqi_painput {
+    display: inline-block;
+    vertical-align: 20%;
+}
+.exqi_painput .radio {
+    margin: 5px 5px 10px 0;
+}
+/****LISTE SUJET****/
+.exqi_lsmodo a {
+    color: #515050 !important;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+.exqi_lsmodo {
+    font-family: Abel;
+    font-size: 12px;
+    margin-right: 15px;
+    letter-spacing: 0.5px;
+}
+.exqi_lspage {
+    position: absolute;
+    right: 30px;
+  color:#8fa2a0 ;text-transform:uppercase;
+}
+.e_participate {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+.exqi_lspage a{color:#95a7a5!important;text-decoration:none!important}
+.exqi_affichagesujet{width:830px;margin:0 15px}
+.exqi_pagination img{vertical-align:middle}
+.exqi_affichagesujet .exqi_pagination{color:#4d5151;display:inline-block;text-transform:uppercase;width:100%;text-align:center;font:600 11px Calibri}
+.exqi_affichagesujet .exqi_pagination a{color:#95a7a5!important;text-decoration:none!important}
+.exqi_lsicon{vertical-align:85%;padding:2px 4px 0 0}
+.exqi_affichagesujet .row3{background-color:transparent!important}
+.exqi_lslastimg{vertical-align:-15%}
+.exqi_lslpost{color:#8fa2a0!important;margin-top:1px;font:600 11px calibri;position:relative}
+.exqi_lsdesc{color:#525f5d;text-transform:uppercase;margin-bottom:-3px;font:600 10px calibri}
+.exqi_lsdate{text-transform:uppercase}
+.exqi_lplsauthor a{text-transform:uppercase;font-size:11px!important;text-decoration:none!important}
+.exqi_lsligne{margin:3px 0}
+.exqi_lsauthor{display:inline-block;position:absolute;top:5px;right:2px}
+.exqi_lstitaut{border-bottom:1px solid #932b4c;color:#932b4c;font-size:11px;position:relative}
+.exqi_lsauthor span{text-transform:uppercase}
+.exqi_lstitaut a{color:#932b4c!important;text-decoration:none!important;}
+.exqi_lstitaut a.exqi_lstopictitle {
+  max-width: 600px;
+display: inline-block;
+max-height: 22px;
+overflow: hidden;
+}
+.exqi_lsnbrv{display:inline-block;vertical-align:top;margin-top:2px}
+.exqi_lsbloc{display:inline-block;width:720px;margin:0 6px 0 0}
+.exqi_lsimage{display:inline-block;vertical-align:top;margin:1px 0 0 5px;width:45px;text-align:center}
+.exqi_lsnbv{background-color:#A44F6A;padding:1px 2px;width:40px;text-align:center;color:#fff;margin-bottom:2px;font:11px Calibri}
+.exqi_lsnbr{background-color:#d9e0df;padding:1px 2px;width:40px;text-align:center;color:#647271;font:11px Calibri}
+.exqi_lstopictitle{letter-spacing:1px;margin:0 5px 0 0;text-transform:uppercase;transition:all 1s;font:16px Abel}
+.exqi_lstopictitle:hover{letter-spacing:2px}
+/****AFFICHAGE SUJET****/
+.exqeel_bloc a{text-decoration:none!important}
+input.mainoption,input.liteoption{background-color:#B6B6B6;padding:2px 8px 2px 6px;font-size:14px;cursor:pointer;color:#fff;font-weight:400!important;text-transform:uppercase;border:0!important}
+.exqi_jumptopic input.liteoption{padding:0 8px 0 6px;background-color:#8F8080}
+.exqi_jumptopic select{padding:2px 0;vertical-align:top;color:#fff;background-color:#B6B6B6;border:0}
+input.mainoption{background-color:#942C4D;padding:2px 10px 2px 8px}
+input.mainoption:hover{background-color:#661931}
+input.liteoption{background-color:#B6B6B6}
+input.liteoption:hover{background-color:#8D8989}
+.exqi_postr,.exqi_postrbot{margin:0 15px;background-color:#D9E0DF}
+.exqi_signature{padding-bottom:20px;font-size:12px}
+.exqi_contact{position:absolute;top:4px;right:15px}
+.exqi_postrbot{margin-top:15px}
+.exqi_topic-page{background-color:#B4C8C6;color:#515050;padding:5px 10px;margin:-10px 20px 10px;width:820px;font:12px Calibri!important}
+.exqi_topic-page a{text-decoration:none!important;color:#515050}
+.exqi_stopwatch{text-align:right}
+.exqi_jumptopic{box-sizing:border-box;display:inline-block;padding:2px;text-align:right;width:710px;text-transform:uppercase;color:#8F8080;font:600 11px Calibri}
+.exq_adminsujet img{margin:4px 0 -3px}
+.exqi_navigation h1 a::before{vertical-align:middle;content:url('http://i.imgur.com/8wPvDpa.png')}
+.exqi_titlet{color:#515050;font-weight:600;font-size:14px;text-align:center;letter-spacing:1px}
+.exqi_rnpost{display:inline-block;vertical-align:top}
+.exqi_rnpost a{display:block}
+.exqi_navigation a{font-size:12px;text-decoration:none!important;font-weight:600;color:#858080}
+.exqi_navigation a[href^='/c']{color:#932b4c}
+.exqi_topictitle{display:inline-block;width:710px;font-family:Calibri;text-transform:uppercase}
+.exqi_navigation{text-align:right;padding:3px 20px;font-size:0}
+.exqi_navigation h1{display:inline}
+.sceditor-button div,div.sceditor-grip{background-image:url(http://image.noelshack.com/fichiers/2015/48/1448806394-famfamfam.png)!important}
+td.row2{background-color:#fff!important}
+.sceditor-button{background-color:#EFEFEF;border:1px solid rgba(0,0,0,0.11);margin:1px;padding:2px 3px!important}
+div.sceditor-group{background:transparent!important;border-bottom:0 solid red!important}
+div.sceditor-grip{display:none}
+.sceditor-container{border:1px solid RGBA(81,80,80,0.45);border-radius:0!important;margin-bottom:-15px!important}
+.exqi_postbody span.exq_name a{text-decoration:none!important;text-transform:uppercase;font-size:12px}
+.exqi_postbody::before{border-bottom:8px solid transparent;border-left:0;border-right:9px solid #F3F3F3;border-top:8px solid transparent;content:"";position:absolute;left:-9px;top:8px}
+.exqi_span img{vertical-align:middle;margin-left:-4px}
+.exqi_profilf .i_icon_online{margin: 2px 155px}
+.exqi_hr{background-color:rgba(0,0,0,0.25);height:1px;width:100%}
+.exqi_signature hr{border:solid rgba(0,0,0,0.25) 0;border-top-width:1px;height:0}
+.exqi_profilf{position:relative;overflow:hidden;height:320px;width:200px;float:left;margin:0 12px 0 25px}
+.exqi_postbody{background-color:#F3F3F3;color:#969292;display:inline-block;font-family:Calibri;min-height:315px;padding:0 15px 5px;position:relative;width:566px}
+.exq_name{display:inline-block}
+.exqi_buttons{display:inline-block;height:16px;text-align:right;float:right;margin-top:-2px}
+.exqi_buttons img{vertical-align:top}
+.exqi_pdetails{color:#4B4B4B;text-transform:uppercase;display:inline-block;margin-bottom:5px;margin-top:1px;font:11px Calibri}
+.exqi_rank{color:#4B4B4B;display:inline-block;font-size:11px;font-weight:600;text-transform:uppercase;margin-bottom:2px}
+.exqi_profilf .exqi_infos{background:#F3F3F3;bottom:-200px;max-height:200px;position:absolute;transition:all .75s;width:200px;min-height:120px;z-index:1}
+.exqi_profilf:hover .exqi_infos{bottom:0}
+.exqi_span{border-bottom:1px solid RGBA(150,146,146,0.50);padding:2px 5px 0;line-height:11px}
+.exqi_infos .label{font-size:0;text-align:right;display:inline-block;width:50%}
+.exqi_infos .label span{color:#969292!important;font-size:11px;text-transform:uppercase}
+.exqi_infos .slabel{color:#969292;font-size:11px;font-weight:600;display:inline-block;width:48%}
+.postbody {
+    clear: both;
+font-family: Open Sans;
+font-size: 12px;
+    line-height: 15px;
+    padding: 0 0 20px;
+    text-align: justify;
+letter-spacing: 0.2px;
+    color: #696969;
+}
+/****HEADER****/
+#i_logo{margin: 10px 30px -100px}
+/****QEEL****/
+#div_producteur{color:#BA4141}
+#div_regisseur{color:#093342}
+#div_illustrateur{color:#7C46B0}
+#div_edificateur{color:#73B332}
+#div_critique{color:#16A085}
+#div_scenariste{color:#DBA11B}
+#div_plume{color:#AD6525}
+#div_translator{color:#497A94}
+#div_editeur{color:#FF8830}
+#div_barista{color:#8F8080}
+#div_acteur{color:#555657}
+#div_monteur{color:#D166C6}
+
+.div_info{display:none}
+.exq_contenu{border:2px solid #b4c8c6;box-sizing:border-box;color:#8FA8A5;font-size:12px;height:258px;overflow:hidden;padding:4px 10px;text-align:justify;width:170px;display:inline-block}
+.exq_onglet{cursor:pointer;display:inline-block;text-align:left;text-transform:uppercase;vertical-align:top;margin:10px 0 0 10px;font:15px Abel}
+.exq_onglet div{letter-spacing:.5px}
+.exq_onglet div:hover{letter-spacing:1.5px;font-size:16px}
+.exqeel_stat{color:#932b4c;display:inline-block;text-align:right;width:145px;vertical-align:top;margin-right:10px;font:65px Calibri}
+.exqeel_colonne{display:inline-block;width:700px}
+.exqeel_dernier{text-transform:uppercase;width:100%;margin-bottom:6px;margin-top:10px;font:50px Abel}
+#exqeel_avatar img{height:110px;width:70px}
+.exqeel_colconn{display:inline-block;width:380px}
+.exqeel_team{display:inline-block;vertical-align:top;margin-left:20px}
+.exqeel_newmlegende{display:inline-block;width:300px;color:#932b4c;letter-spacing:4px;vertical-align:top}
+.exqeel_lastinfo{display:inline-block;width:auto;padding:0 15px;text-align:center}
+#exqeel_avatar{display:inline-block;vertical-align:top;border-radius:50%;width:70px;height:70px;overflow:hidden;margin-top:-7px;text-align:center}
+.exqeel_connexion{border:2px solid #b4c8c6;height:140px;padding:5px 10px}
+.exqeel_connexion td.row1{background-color:#fff}
+.exqeel_connexion a{text-decoration:none!important}
+.exqeel_connexion2{border:2px solid #b4c8c6;height:70px;margin-top:20px;padding:5px 10px;background-color:#b4c8c6}
+#qeel_listuser,.exqeel_connexion a{font-size:11px}
+#qeel_listuser a{text-decoration:none!important}
+#qeel_newm{font-size:35px;height:35px;letter-spacing:1px}
+#qeel_newm a{text-decoration:none!important}
+#exqeel_lastdate{font-size:14px;color:#932b4c}
+.exqeel_statlegende{font-size:18px;margin-top:-20px;text-transform:uppercase;font-weight:600}
+.exqeel_record .exqeel_statlegende span{font-size:15px;margin-top:-8px;display:inline-block}
+.qeel_titleconnexion2{color:#fff}
+.qeel_titleconnexion,.qeel_titlegrp{color:#8FA8A5}
+.qeel_titleconnexion2,.qeel_titleconnexion,.qeel_titlegrp{text-transform:uppercase;letter-spacing:2px;border-bottom:1px solid;font:13px Abel}
+.exq_contenu .qeel_titlegrp{margin-bottom:4px}
+/****BARRE DE MENU****/
+.exq_logonav{height:140px;position:relative;top:70px;z-index:900;width:160px;margin:0 auto;border-radius:50%}
+.exq_logonav img{height:140px;border-radius:50%}
+.exq_navbar a.mainmenu[href^="/groups"],.exq_navbar a.mainmenu[href^="/privmsg?folder=inbox"],.exq_navbar a.mainmenu[href^="/memberlist"]{float:right}
+.exq_navbar a.mainmenu[href^="/faq"]{display:none!important}
+.exq_navbar a.mainmenu[href^="/login?logout=1&tid="],.exq_navbar a.mainmenu[href^="/login"],.exq_navbar a.mainmenu[href^="/register"],.exq_navbar a.mainmenu[href^="/h1-guide-exquisite"]{position:absolute;top:-15px;background-color:#b4c8c6;right:0;padding:2px 0 0;border:none!important;font-size:18px;width:160px;text-align:center;transition:all;letter-spacing:1px;color:#fff;margin:0}
+.exq_navbar a.mainmenu[href^="/login?logout=1&tid="]:hover,.exq_navbar a.mainmenu[href^="/login"]:hover,.exq_navbar a.mainmenu[href^="/register"]:hover,.exq_navbar a.mainmenu[href^="/h1-guide-exquisite"]:hover{background-color:#b4c8c6;color:#4D5959}
+.exq_navbar a.mainmenu:hover{background-color:#7f8d8b;border-color:#d9e0df;color:#fff}
+.exq_navbar a.mainmenu[href^="/login?logout=1&tid="]::before,.exq_navbar a.mainmenu[href^="/login"]::before{border-bottom:20px solid #b4c8c6;border-left:15px solid transparent;content:"";position:absolute;top:0;left:-15px}
+.exq_navbar a.mainmenu[href^="/register"],.exq_navbar a.mainmenu[href^="/h1-guide-exquisite"]{left:0!important}
+.exq_navbar a.mainmenu[href^="/register"]::before,.exq_navbar a.mainmenu[href^="/h1-guide-exquisite"]::before{border-bottom:20px solid #b4c8c6;border-right:15px solid transparent;content:"";position:absolute;top:0;right:-15px}
+.exq_navbar{width:10%;height:50px;background-color:#b4c8c6;padding:10px 10px 14px;box-sizing:border-box;position:relative}
+.exq_navbar a.mainmenu{margin:0 15px;float:left;text-decoration:none!important;transition:linear 1s;padding:3px 10px;background-color:#d9e0df;color:#666363;text-transform:uppercase;border:1px solid rgba(136,152,150,0.5);font:13px Abel}
+.exq_navbar a.mainmenu img{display:none}
+.exq_navbar a.mainmenu[href^="/login?logout="]::after{content:"Déconnexion";font-size:18px}
+.exq_navbar a.mainmenu[href^="/login?logout="]{font-size:0!important}
+/****BODY****/
+td.bodyline{padding:0!important;border:none!important}
+body{margin-top:0;margin-bottom:-10px}
+.forumline{background:none!important;border:none}
+.catHead{background:none!important;border:none}
+.row1{background:none!important;border:none}
+#page-footer {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+/****CATEGORIE****/
+.exq_secondarytitle{background-color:#932b4c;text-align:center;font-family:Abel;letter-spacing:1px;text-transform:uppercase;padding:1px;margin-bottom:15px}
+.exq_secondarytitle h2{color:#fff!important;font-size:18px!important;font-weight:400!important}
+.exq_cat{margin:0 20px}
+.exq_bloc{height:auto;margin-bottom:5px}
+.forum-droite{display:inline-block;width:42%;vertical-align:top}
+.forum-new{display:inline-block;width:12%;vertical-align:top;text-align:center;padding-top:5px}
+.forum-gauche{display:inline-block;width:46%;vertical-align:top}
+.exq_titre{text-transform:uppercase;font-family:Abel;text-align:right;border-bottom:1px solid #5c5678}
+.exq_titre a{color:#932b4c;text-decoration:none!important;transition:all 1s;letter-spacing:0}
+.forum-lien{background-color:#d9e0df;height:30px;text-align:center;box-sizing:border-box;display:table-cell;min-width:377px;vertical-align:middle;line-height:13px}
+.forum-lien img{display:none!important}
+.stat1,.stat2{display:inline-block;width:50px;text-align:center;vertical-align:top;margin:5px 5px 0 0;padding:7px 2px 6px;font:12px Calibri}
+.stat1{background-color:#A44F6A;color:#fff}
+.stat2{background-color:#d9e0df;color:#647271}
+.der{display:inline-block;width:255px}
+.der_content a.gensmall{display:none}
+.der_autor a{text-decoration:none!important}
+.exq_description{color:#8fa2a0;max-height:50px;padding:5px 0;text-align:right;overflow:hidden;font:11px Calibri}
+.der_legende{border-bottom:1px solid #932b4c;color:#932b4c;margin:5px 0 0;width:180px;text-transform:none;font:11px Calibri}
+.der_content{color:#8fa2a0;text-transform:uppercase;position:relative;font:11px Calibri}
+.der_content a{text-transform:none!important;color:#8fa2a0!important;text-decoration:none!important;font-weight:600}
+.exq_titre a:hover{letter-spacing:1px}
+.der_content a img{position:relative;top:2px;left:-7px}
+.forum-lien a.gensmall{color:#647271;text-decoration:none!important;font-size:11px!important;text-transform:uppercase;font-style:italic;letter-spacing:0;transition:all 1s;margin:0 6px 0 3px}
+.forum-lien a.gensmall:hover{color:#2E3B3A;letter-spacing:1px}
+/****Menu OPTIONS&LIENS UTILES****/
+.exq_dropdown li{margin-left:-40px}
+.exq_dropmenu{margin-right:20px;position:relative;margin-bottom:4px}
+.exq_dropfleche{border-left:3px solid transparent;border-right:3px solid transparent;border-top:7px solid;display:inline-block;margin-left:6px}
+.exq_dropdown{background-color:#928D8D;display:none;font-size:12px;list-style:none!important;position:absolute;right:0;text-align:right;z-index:100;margin:0}
+.exq_dropdown > li > a{color:#fff;display:block;text-decoration:none!important;padding:1px 10px 2px;font:11px calibri}
+.exq_dropdown > li > a:hover{background-color:#A7A1A1}
+.exq_boutondrop{background-color:#B6B6B6;color:#fff;cursor:pointer;padding:1px 3px 2px 6px;border:none;text-transform:uppercase;font:11px Calibri}
+.exq_boutondrop:hover{color:#333;background-color:#e6e6e6}
+/****PA****/
+.pa {
+    height: 400px;
+    margin: auto auto 10px;
+    position: relative;
+    text-align: justify;
+    width: 820px;
+}
+
+.pa-droite, .pa-gauche, .pa-milieu {
+    float: left;
+}
+.pa-gauche {
+    margin: 0 10px 10px 6px;
+  width: 285px;
+  
+}
+.pa-gauche span{display:block;padding-right:10px;text-align:right;text-transform:uppercase;letter-spacing:1px;color:#932b4c;font:25px Abel}
+.pa-gauche .pa-cadre{color:#8fa2a0;transform:none!important;font:11px Calibri}
+.pa-gauche img{width:38px;height:38px;margin-left:40px;border-radius:100%}
+.pa-milieu {
+    border-left: 1px solid #932b4c;
+    border-right: 1px solid #932b4c;
+    height: 300px;
+    padding: 0 8px 0 10px;
+    position: relative;
+    width: 295px;
+  margin-bottom: 10px;
+}
+.pa-milieu .pa-staf {
+    display: inline-block;
+    width: 118px;
+}
+.pa-milieu .pa-inf span, .pa-milieu .pa-staf span {
+    color: #932b4c;
+    display: inline-block;
+    font-family: Abel;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pa-milieu .pa-staf img{width:108px;height:47px;margin-top:5px}
+.pa-milieu .pa-inf {
+    display: inline-block;
+    padding-top: 24px;
+    vertical-align: top;
+    width: 174px;
+}
+.pa-milieu .pa-inf p{height:20px;margin-top:-10px;padding:2px;border-bottom:1px solid #b4c8c6;text-transform:uppercase;color:#b4c8c6}
+.pa-milieu .pa-inf p z,.pa-milieu .pa-inf p y{padding-right:2px;padding-bottom:2px;padding-left:2px;color:#fff;background-color:#b4c8c6}
+.pa-milieu .pa-inf .pa-titre1 {
+    background-color: #8fa2a0;
+    color: #fff;
+    font-family: Abel;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 164px;
+}
+.pa-milieu .pa-inf div {
+    color: #fff;
+    font-family: Abel;
+    font-size: 12px;
+    margin-top: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 73px;
+    padding: 5px;
+}
+.pa-droite {
+    width: 200px;
+  margin-left: 4px;
+text-align: center;
+}
+.pa .pa-droite span {
+    color: #932b4c;
+    display: inline-block;
+    font-family: Abel;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pa .pa-droite .pa-ved {
+    margin: 5px;
+}
+.pa .pa-droite div .pa-vainc {
+    margin: 5px 0;
+}
+.pa-bas {
+    clear: both;
+    height: 75px;
+    margin: 5px auto;
+    width: 820px;
+}
+.pa-bas .pa-part{background-color:#d9e0df;height:50px;
+    padding: 2px 0px;
+}
+  .pa-bas .pa-part img {
+    margin: 0px 2px;
+}
+.pa-bas .pa-rej{background-color:#8fa2a0;text-align:center;padding-top:5px;padding-bottom:5px}
+.pa-bas .pa-rej a,.pa-bas .pa-rej a:hover{color:#fff!important;text-decoration:none!important;text-transform:uppercase!important;font:15px Abel!important}
+.pa-titre1 a{color:#fff!important;text-decoration:none!important;text-transform:uppercase!important;font:15px Abel!important}
